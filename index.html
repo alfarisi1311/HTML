@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katalog Kisah Kita ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Katalog Kisah Kita ✨</h1>
+        <p>Sebuah koleksi kenangan indah, dari awal bertemu hingga hari ini.</p>
+    </header>
+
+    <main>
+        <section id="awal-bertemu" class="katalog-item">
+            <h2>Bab 1: Babak Perkenalan 🌹</h2>
+            <div class="detail-katalog">
+                <img src="foto-pertemuan.jpg" alt="Foto Tempat Pertama Bertemu" class="foto-kenangan">
+                <div class="deskripsi">
+                    <h3>Tempat Pertama Kita Bertemu</h3>
+                    <p>Momen tak terduga yang mengubah segalanya. Rasanya seperti ada *spark*! Tanggalnya adalah: <span id="tanggal-bertemu"></span></p>
+                    <button class="tombol-cerita" onclick="tampilkanCerita('cerita-awal')">Baca Kisah Selengkapnya</button>
+                    <p id="cerita-awal" class="cerita-tersembunyi">Cerita detail tentang bagaimana kalian bertemu, kesan pertama, dan apa yang membuat Anda jatuh cinta saat itu.</p>
+                </div>
+            </div>
+        </section>
+        
+        <hr>
+
+        <section id="galeri-perjalanan" class="katalog-item">
+            <h2>Bab 2: Petualangan & Kencan Kita 🗺️</h2>
+            <div class="galeri-foto">
+                <div class="katalog-foto">
+                    <img src="foto-jalan-1.jpg" alt="Kencan Pertama" title="Kencan Pertama Kita">
+                    <h4>Kencan Pertama yang Grogi</h4>
+                </div>
+                <div class="katalog-foto">
+                    <img src="foto-jalan-2.jpg" alt="Liburan Favorit" title="Liburan di Pantai Ajaib">
+                    <h4>Liburan di [Nama Tempat]</h4>
+                </div>
+                </div>
+        </section>
+
+        <hr>
+
+        <section id="hari-spesial" class="katalog-item">
+            <h2>Bab 3: Menghitung Hari Bahagia 🗓️</h2>
+            <p>Menuju Hari Jadi Kita: <span id="countdown"></span></p>
+            <p class="kutipan-cinta">"Selalu ada cerita baru setiap kita melangkah bersama."</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Dibuat dengan ❤️ untukmu, [Nama Pacar Anda].</p>
+        <p>&copy; [Tahun Saat Ini]</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
